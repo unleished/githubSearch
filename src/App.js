@@ -34,22 +34,9 @@ class App extends Component {
     fetch(url)
     .then(data => data.json())
     .then(json => {
-        // json.items.forEach((item) => {
-        //   const result = {
-        //     name: item.name,
-        //     language: item.language,
-        //     version: item.tags_url
-        //   }
-        // })
         this.setState({
-        //   results: [...this.state.results, result],
-        //   isLoaded: true
-        // })
         results: json.items.slice(0, 10),
-        // version: json.items.tags_url.keys(JSON.parse()[0].name)
-        // version: this.getVersion(json.items.tags_url)
         })
-      // .then(fetch())
     });
 
   }

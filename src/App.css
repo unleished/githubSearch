@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #744DF1;
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.search{
+  padding: 1.5em;
+}
+
+.searchbtn {
+    background-color: #744DF1;
+    color: white;
+}
+
+
+table {
+  margin-top: 2em;
+  margin-left: 1.5em;
+  text-align: left;
+  font-size: .8em;
+  width: 100%;
+}
+
+th {
+  padding-bottom: 1em;
+}
+
+.link, a {
+  cursor: pointer;
+  color: #744DF1;
+  text-decoration: underline;
+}
+
+.purple {
+  background-color: #F1ECFE;
+  min-height: 100vh;
+  height: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
